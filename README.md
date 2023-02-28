@@ -20,7 +20,7 @@ version for your computer. Install PyCharm, and open it. If your computer does n
 ### Create a new Project
 
 After PyCharm opens, use the **File > New Project** menu option to create a new project: 
-![](/Users/nbiggs112/repos/CUPythonClass/img/new_project.png "pycharm new project window")
+![](img/python_project.png "pycharm new project window")
 
 Name your project, and make sure (as in the image above) that you've chosen to use a Virtualenv. 
 Leave everything else as defaults, and finish creating the project.
@@ -31,7 +31,42 @@ Leave everything else as defaults, and finish creating the project.
 > _level python environment, it's often useful to separate your python environments for the purpose of better control_ 
 > _over what packages are installed, and how those packages are configured._
 
+### Installing Python Packages
+
+Some of the exercises we will do later in the class require libraries, which are pre-written in Python 
+(and sometimes other languages) that are bundled together and downloadable from [PyPi](http://pypi.org), 
+the Python Package Repository.
+
+Python comes with a package manager called Pip. To use Pip to install a package, open the terminal 
+(also at the bottom of your PyCharm screen for convenience), and type `pip install <package_name>`
+
+![](img/pip_install.png "installing a package through pip in the terminal")
+
+> ***Note**: This terminal is convenient to use, because automatically runs your commands within the virtual environment we set up earlier.*
+
+PyCharm also comes with a built-in front-end for Pip, which you can also get to from the bottom bar:
+
+![](img/python_packages.png "pycharm python packages window")
+
 ### Run your first commands in Python
 
 From the bottom of your screen, select **Python Console**. 
+In the space next to the text `>>>`, type `print('hello world')` and then press <kbd>Enter</kbd>. 
+
+![](img/python_console.png "pycharm new project window")
+
+You should receive `hello world` as output. 
+
+**Congratulations! You've run your first command in Python!**
+
+
+## Preparing for the remainder of this class
+
+The exercises in this class will be provided to you through a GitHub repo. To download a local copy of this repo, 
+go to the **Git** menu at the top of your screen, and choose **Clone...**
+
+Paste in the following URL: 
+`https://github.com/nattyboyme3/cu-python-class`
+
+![](img/git_clone.png "clone the github repo")
 
