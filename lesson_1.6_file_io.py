@@ -73,15 +73,17 @@ with open(out_filename, "w") as out_file:
 # Now that you know how to do it the hard way, Python provides us a much easier way:
 import csv
 
-limit = 10
+# Same as before
+limit = 5
 count = 0
 data = []
 with open(filename, "r") as csv_file:
+    # This time we use an object from the csv library, called a DictReader
+    # the DictReader outputs dictionaries instead of strings, using the header rows as the keys for the dictionary
     reader = csv.DictReader(csv_file)
     for row in reader:
         if count > limit:
             break
-        # Doing it this way, each row is a dictionary, making a lot of things easier.
         data.append(row)
         count += 1
 
@@ -91,7 +93,9 @@ for record in data:
     print(f'Name: {record["name"]}, Phone: {record["phone-number"]}')
 
 # If we want to, we can even transform the data
+print("Output 3:")
 for record in data:
     name_split = record["name"].split(" ")
     phone_split = record["phone-number"].split('-')
     print(f'Name: {name_split[1]}, {name_split[0]}; Area Code: {phone_split[0]}')
+
