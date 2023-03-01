@@ -66,3 +66,7 @@ print(f"Lewis's name is {lewis_name}")
 lewis.rename("Lewis & Clark")
 print(lewis)
 
+
+# Make your own class, representing your favorite pastry. Add any properties you feel are important,
+#  and make sure you cover the __init__() and __repr__() utility methods.
+# For any methods that modify properties, make sure to pass in "self" to the objects.

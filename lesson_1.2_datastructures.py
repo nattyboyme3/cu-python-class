@@ -52,6 +52,9 @@ print(d['My'])
 print(d4['Network Team']['Director'])
 
 # # The 'in' operator # #
+# When used like this, "in" will tell you whether the item on the left is contained by the object on the right.
 print(2 in [1, 2, 3])
 
+# Exercise 1: retrieve the 2nd member of the Tech Team from the nested dictionary.
 
+# Exercise 2: Set 'Dr. White' as the director of the Network Team.

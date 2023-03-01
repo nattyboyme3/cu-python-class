@@ -39,4 +39,9 @@ for animal in list_of_animals:
 
 print(dict_of_animals)
 
+# Exercise 1: Create a list of lists, and loop through each element in the inside lists.
+#   Hint: You can add a list as a member of another list like this: list1.append([1,2,3])
+
+# Exercise 2: Create a list of 30 integers, and then write a loop to print every 3rd item, and stop after 20 items.
+#   Hint: you can use the built-in method range(0,30) to create a list of the first 30 integers.
 

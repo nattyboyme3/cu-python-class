@@ -67,5 +67,9 @@ def does_nothing():
     # TODO: Add functionality
     pass
 
+# Exercise 1: Create a function to reverse a string passed into it, and return the reversed string
+#   Hint: you can loop through each character in the string using 'for i in string_var:'
 
-
+# Exercise 2: Create a function to call your first function on each word of a sentence.
+#   Hint: You can get a list of words in a sentence by calling the .split(' ') method on the string variable
+#     like this: string_var.split(' ')

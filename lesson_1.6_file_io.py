@@ -99,3 +99,8 @@ for record in data:
     phone_split = record["phone-number"].split('-')
     print(f'Name: {name_split[1]}, {name_split[0]}; Area Code: {phone_split[0]}')
 
+# Exercise 1: Create some data (using string variables or a dictionary), and write it out to a CSV.
+#   Make sure you have a header row
+# Bonus: Use a loop to create some numerical data to put in the CSV.
+
+# Exercise 2: Read your own CSV, and transform the data somehow.

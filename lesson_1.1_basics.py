@@ -88,5 +88,9 @@ print(f'Division: a / b = {a} / {b} = {a/b:.3f}')   # The part ':.xf' specifies 
 # You can do most code-like things in the brackets
 print(f'Computation inside curly braces: {122**2 / 47}')
 
+# Exercise 1: Create a variable containing your name, and then use f-strings to insert your name into a sentence, like
+#   "Hello, my name is George, and I like donuts." Print the string.
 
+# Exercise 2: Take a string variable with your name, and insert it into a string, repeated 3 times using the * operator.
+#   Print the resulting string 3 times with a single print statement.
 
