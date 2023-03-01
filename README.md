@@ -70,3 +70,6 @@ Paste in the following URL:
 
 ![](img/git_clone.png "clone the github repo")
 
+Once the process finishes, you'll have your own copy of this repository, and you can begin to work through the exercises.
+
+![](img/cloned_project.png "clone the github repo")
