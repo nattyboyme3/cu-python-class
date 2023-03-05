@@ -4,7 +4,7 @@ We won't teach you to talk to snakes, but if you're interested in learning some 
 
 To celebrate the beauty and simplicity of our favorite programming language, we've enlisted the help of **Spots, a real 4-foot ball python**, who will be entertaining visitors in Tyler 206I from 4-5 p.m. today. Spots is a gentle snake, who loves to help people learn more about the programming language that shares the name of his kin. 
 
-![spots](/Users/nbiggs112/Library/CloudStorage/OneDrive-CedarvilleUniversity/temp/spots.jpg)
+![spots](img/spots.jpg)
 
 ## Why Python?
 
