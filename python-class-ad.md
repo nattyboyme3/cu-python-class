@@ -1,3 +1,5 @@
+# Extract, Transform & Load: Sweeten your Data with Python
+
 ## Why Python?
 
 Python (the programming language) is a **simple** but **powerful** tool, with easy-to-learn syntax and a wide variety of available pre-written libraries. If you use a computer for your job, Python can help you automate repetitive tasks, and do more with your data. 
@@ -19,7 +21,14 @@ This class (taught  by CU IT's own **Micah Cooper** and **Nat Biggs**) will cove
 - Interpreting and Visualizing data in python
 
 ## Class Schedule
-- **Session 1:** Thursday, March 16th, 2-4 p.m.
-- **Session 2:** Thursday, March 23rd, 2-4 p.m.
-- **Session 3:** Friday, April 14th, 2-4 p.m.
-- **Session 4:** Friday, April 21st, 2-4 p.m.
+- **Session 1:** Thursday, March 16th, 2-4 p.m. - Hello, my name is **Python**
+- **Session 2:** Thursday, March 23rd, 2-4 p.m. - Pythons use the Internet!?
+- **Session 3:** Friday, April 14th, 2-4 p.m. - Embracing Data: with Pandas!
+- **Session 4:** Friday, April 21st, 2-4 p.m. - Python Data Transmogrification
+
+## Location
+Sessions will be held in the Tyler building. Room TBA.
+
+## I'm sold! How do I sign up? 
+Please fill out the following form: 
+[Sign up for Extract, Transform & Load: Sweeten your Data with Python](https://forms.microsoft.com/r/itetyRmVwW)
