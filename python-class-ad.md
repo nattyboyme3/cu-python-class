@@ -21,5 +21,5 @@ This class (taught  by CU IT's own **Micah Cooper** and **Nat Biggs**) will cove
 ## Class Schedule
 - **Session 1:** Thursday, March 16th, 2-4 p.m.
 - **Session 2:** Thursday, March 23rd, 2-4 p.m.
-- **Session 3:** Friday, April 7th, 2-4 p.m.
-- **Session 4:** Friday, April 14th, 2-4 p.m.
+- **Session 3:** Friday, April 14th, 2-4 p.m.
+- **Session 4:** Friday, April 21st, 2-4 p.m.
