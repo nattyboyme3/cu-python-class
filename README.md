@@ -7,7 +7,7 @@ First, install Git on your system. Git is the version control system that we wil
 
 ### Installing Git
 
-1. Navigate to the [Git Website](https://git-scm.com/download/windows)
+1. Navigate to the [Git Website](https://git-scm.com/download)
 2. Download and install the correct Git version for your system.
 3. Feel free to accept the defaults in the installation. There are a lot of options, but default settings will be ok for the purposes of this class.
 4. From PowerShell or Terminal, issue the command `git --version` to confirm that it installed correctly. It should output something like this: `git version 2.39.2`
