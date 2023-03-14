@@ -23,7 +23,7 @@ After PyCharm opens, use the **File > New Project** menu option to create a new 
 ![](img/python_project.png "pycharm new project window")
 
 Name your project, and make sure (as in the image above) that you've chosen to use a Virtualenv. 
-Leave everything else as defaults, and finish creating the project.
+Leave everything else as defaults, and click **create**.
 
 > **What is a virtualenv?** 
 > 
