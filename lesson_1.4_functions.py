@@ -19,12 +19,13 @@ def add_numbers(one: int, two: int) -> int:
 
 print(add_numbers(5, 6))  # => 11
 # arguments to functions can also be variables.
-a = 5
+five = 5
 # we can set a variable from the returned value from the function
-b = add_numbers(5, 5)
-print(add_numbers(a, b))  # => 15
+ten = add_numbers(5, 5)
+print(add_numbers(five, ten))  # => 15
 # arguments to functions can also be values returned from other functions
-print(add_numbers(add_numbers(a, b), b))  # => 25
+print(add_numbers(add_numbers(five, ten), ten))  # => 25
+
 
 # This function alternates letters from two strings, for as long as they both have letters
 # - This makes sense. Who wants to figure/type/paste this out more than once?

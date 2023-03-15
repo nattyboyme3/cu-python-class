@@ -63,7 +63,7 @@ out_filename = "output.csv"
 # This time we use "w" for "write". This will overwrite any existing file with this name.
 # We could also use "a" "append" which would add to an existing file.
 with open(out_filename, "w") as out_file:
-    # we need to add line returns so that each record is on its own line
+    # we need to add a line return so that each record is on its own line
     out_file.write("name,phone-number\n")
     for k, v in people.items():
         out_file.write(f"{k},{v}\n")
@@ -71,6 +71,8 @@ with open(out_filename, "w") as out_file:
 # Now, you can check out the output.csv file we've created by opening it in Excel.
 
 # Now that you know how to do it the hard way, Python provides us a much easier way:
+# - First, we need some additional built-in libraries. These come with Python, but aren't included
+#   in the available method in every file for efficiency.
 import csv
 
 # Same as before

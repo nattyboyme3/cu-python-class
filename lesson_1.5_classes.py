@@ -1,7 +1,7 @@
 # # Classes # #
 
 # Classes in Python could be a whole class (no pun intended) on its own, but basically,
-# they are ways of packaging specific kinds of data and methods/functions that go along with that data for ease of use.
+# they are ways of packaging specific kinds of data and methods that go along with that data for ease of use.
 
 # The class below defines an object of type "ChiaPet". The ChiaPet type has a few properties:
 # - a boolean variable stores whether it is alive
@@ -19,7 +19,7 @@ class ChiaPet:
 
     # Another part of a Python class is a member method. These methods can be called on a specific ChiaPet object,
     # altering it's state. The "self" object refers to the ChiaPet object that this method is called from, and it
-    # is always the first argument in any class-based (non-static) function.
+    # is always the first argument in any class-based (non-static) method.
     def kill(self):
         self.alive = False
 
@@ -29,14 +29,14 @@ class ChiaPet:
     def rename(self, new_name: str):
         self.name = new_name
 
-    # This function returns something. In this case, it's on of the object's properties, but it could be anything.
+    # This method returns something. In this case, it's one of the object's properties, but it could be anything.
     def get_name(self) -> str:
         return self.name
 
     # There are some other special method calls. This one tells the Python interpreter how to show this object when
     # it needs to convert it to text (i.e. print(ChiaPet))
     def __repr__(self):
-        if (self.alive):
+        if self.alive:
             return f"My name is {self.name} and I am {self.age} years old."
         else:
             return f"I'm dead. Stop asking me questions."
@@ -47,6 +47,9 @@ class ChiaPet:
 tom = ChiaPet("Thomas the Tank Chia", 34)
 
 lewis = ChiaPet("Lewis Carroll", 87)
+
+# They're objects, so we can put them in a list:
+pet_list = [tom, lewis]
 
 # Whoops, tom died.
 tom.kill()
@@ -67,6 +70,6 @@ lewis.rename("Lewis & Clark")
 print(lewis)
 
 
-# Make your own class, representing your favorite pastry. Add any properties you feel are important,
+# Exercise: Make your own class below, representing your favorite pastry. Add any properties you feel are important,
 #  and make sure you cover the __init__() and __repr__() utility methods.
-# For any methods that modify properties, make sure to pass in "self" to the objects.
+#  For any methods that modify properties, make sure to pass in "self" to the objects.

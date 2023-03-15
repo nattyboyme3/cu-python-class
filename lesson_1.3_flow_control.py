@@ -83,4 +83,3 @@ print('The End.')
 
 # Exercise 2: Create a list of 30 integers, and then write a loop to print every 3rd item, and stop after 20 items.
 #   Hint: you can use the built-in method range(0,30) to create a list of the first 30 integers.
-
