@@ -27,7 +27,7 @@ This class (taught  by CU IT's own **Micah Cooper** and **Nat Biggs**) will cove
 - **Session 4:** Friday, April 21st, 2-4 p.m. - Python Data Transmogrification
 
 ## Location
-Sessions will be held in the Tyler building. Room TBA.
+Sessions will be held in **Tyler, room 106**
 
 ## I'm sold! How do I sign up? 
 Please fill out the following form: 
