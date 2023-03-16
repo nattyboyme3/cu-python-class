@@ -1,4 +1,7 @@
 # CU IT Python Course
+
+[![PowerPoint]][PowerPoint]   
+
 ## Setting up your IDE
 For this class, we'll be using the JetBrains PyCharm Community Edition IDE. This is a well-known (and free) version of a 
 very good development environment specifically designed for writing python code.
@@ -69,3 +72,5 @@ Once the window appears, paste in the following URL, and click **Clone**:
 When the process finishes, you'll have your own copy of the course materials in this repository, and we can begin to work through the exercises.
 
 ![](img/cloned_project.png "cloned github project")
+
+[PowerPoint]: https://img.shields.io/badge/-Go%20to%20PowerPoint-blue?link=https://docs.google.com/presentation/d/1iz1AdEnwt2QAPHibHvsBdiVCJdri3XNnTT59F4SdK4A/edit?usp=sharing
