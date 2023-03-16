@@ -1,6 +1,6 @@
 # CU IT Python Course
 
-[![PowerPoint]][PowerPoint]   
+[![PowerPoint]][PowerPoint_Link]   
 
 ## Setting up your IDE
 For this class, we'll be using the JetBrains PyCharm Community Edition IDE. This is a well-known (and free) version of a 
