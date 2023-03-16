@@ -1,6 +1,6 @@
 # CU IT Python Course
 
-[![PowerPoint]][PowerPoint_Link]   
+[![PowerPoint1]][PowerPoint_Link1]   
 
 ## Setting up your IDE
 For this class, we'll be using the JetBrains PyCharm Community Edition IDE. This is a well-known (and free) version of a 
@@ -73,5 +73,5 @@ When the process finishes, you'll have your own copy of the course materials in 
 
 ![](img/cloned_project.png "cloned github project")
 
-[PowerPoint]: https://img.shields.io/badge/Go%20to%20PowerPoint-Lesson%201-blue
-[PowerPoint_link]: https://docs.google.com/presentation/d/1iz1AdEnwt2QAPHibHvsBdiVCJdri3XNnTT59F4SdK4A/edit?usp=sharing
+[PowerPoint1]: https://img.shields.io/badge/Go%20to%20PowerPoint-Lesson%201-blue
+[PowerPoint_Link1]: https://docs.google.com/presentation/d/1iz1AdEnwt2QAPHibHvsBdiVCJdri3XNnTT59F4SdK4A/edit?usp=sharing
