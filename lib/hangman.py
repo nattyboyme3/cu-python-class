@@ -57,3 +57,6 @@ art = [
         "--------"
     ],
 ]
+
+def get_art():
+    return art

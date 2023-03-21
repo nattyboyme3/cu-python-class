@@ -1,12 +1,15 @@
 # # Bonus Project: Hangman Game
-# The instructions below will help you to create your own hangman game. Answers (don't cheat unless you have to!) are
-#  provided in the bonus_hangman_answers.py file in this directory.
+# The instructions below will help you to create your own text-based hangman game. Answers (don't cheat unless you have
+#  to!) are provided in the bonus_hangman_answers.py file in this directory.
 
 # First, we import the libraries we need: requests and random. Random comes with the standard python libraries, and
 #  can be used to generate pseudo-random numbers, or choose pseudo-randomly from lists of objects.
+
 import requests
 import random
-import libhangman
+# ./lib/hangman has our text-based art in it. When you import things this way, you need to use the full path, like:
+#  var = lib.hangman.method_does_something()
+import lib.hangman
 
 # This is a URL for 1000 most commonly used words in the english language.
 url = 'https://gist.githubusercontent.com/deekayen/4148741/raw/98d35708fa344717d8eee15d11987de6c8e26d7d/1-1000.txt'
@@ -25,7 +28,7 @@ class HangmanGame:
         # Alternate solution using list comprehensions:
         self.wordlist.extend([i.strip() for i in resp.text.split('\n')])
         # Check this file for cool ASCII art.
-        self.art = libhangman.art
+        self.art = lib.hangman.get_art()
         # We only have so much art
         self.max_guesses = len(self.art) - 1
         # Set up things to be used later

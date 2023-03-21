@@ -4,9 +4,8 @@
 
 # First, we import the libraries we need: requests and random. Random comes with the standard python libraries, and
 #  can be used to generate pseudo-random numbers, or choose pseudo-randomly from lists of objects.
-import requests
 import random
-import libhangman
+from lib import hangman
 
 # This is a URL for 1000 most commonly used words in the english language.
 url = 'https://gist.githubusercontent.com/deekayen/4148741/raw/98d35708fa344717d8eee15d11987de6c8e26d7d/1-1000.txt'
