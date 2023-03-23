@@ -27,7 +27,7 @@ class HangmanGame:
 
 
         # Check this file for cool ASCII art.
-        self.art = libhangman.art
+        self.art = hangman.art
         # We only have so much art
         self.max_guesses = len(self.art) - 1
         # Set up things to be used later
